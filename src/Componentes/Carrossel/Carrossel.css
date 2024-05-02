@@ -1,0 +1,10 @@
+.slick-slide {
+    inline-size: 100%; 
+    block-size: 100%; 
+  }
+  
+  .slick-slide img {
+    inline-size: 100%; 
+    block-size: 200px;
+    object-fit: cover; 
+  }

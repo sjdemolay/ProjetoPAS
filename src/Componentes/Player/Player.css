@@ -1,0 +1,163 @@
+.play-video{
+    background-color: #151515;
+    flex-basis: 69%;
+}
+
+.play-video iframe{
+    inline-size: 100%;
+    block-size: 37vw;
+}
+
+.play-video h3{
+    margin-block-start: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-block-start: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.play-video-info img{
+    inline-size: 20px;
+    margin-inline-end: 8px;
+}
+
+.play-video-info span{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    margin-inline-start: 15px;
+}
+
+.play-video hr{
+    border: 0;
+    block-size: 1px;
+    background: #ccc;
+    margin: 10px 0;
+} 
+
+.autor{
+    display: flex;
+    align-items: center;
+    margin-block-start: 20px;
+}
+
+.autor div{
+    flex: 1;
+    line-height: 18px;
+}
+
+.autor img{
+    inline-size: 40px;
+    border-radius: 50%;
+    margin-inline-end: 15px;
+}
+
+.autor div p{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.autor div span{
+    color: white;
+    font: 13px;
+}
+
+.autor button{
+    background: red;
+    color: #fff;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.desc-video{
+    color: white;
+    padding-inline-start: 55px;
+    margin: 15px 0;
+}
+
+.desc-video p{
+    color: white;
+    font-size: 14px;
+    margin-block-end: 5px;
+}
+
+.desc-video h4{
+    font-size: 14px;
+    color: white;
+    margin-block-start: 15px;
+}
+
+.comentario{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.comentario img{
+    inline-size: 35px;
+    border-radius: 50%;
+    margin-inline-end: 15px;
+}
+
+.comentario h3{
+    font-size: 14px;
+    margin-block-end: 2px;
+}
+
+.comentario h3 span{
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin-inline-start: 8px;
+}
+
+.acoes-comentario{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.acoes-comentario img{
+    border-radius: 0;
+    inline-size: 20px;
+    margin-inline-end: 5px;
+}
+
+.acoes-comentario span{
+    margin-inline-end: 20px;
+    color: #5a5a5a;
+}
+
+@media (max-width:900px){
+    .play-video{
+        flex-basis: 100%;
+    }
+
+    .play-video iframe{
+        inline-size: 100%;
+        block-size: 50vw;
+    }
+
+    .desc-video{
+        padding-inline-start: 0;
+    }
+
+    .play-video .play-video-info span{
+        margin-inline-start: 0;
+        margin-inline-end: 15px;
+        margin-block-start: 15px;
+    }
+}

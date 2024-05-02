@@ -1,0 +1,72 @@
+.sidebar {
+    background-color: #151515;
+    color: white;
+    inline-size: 15%;
+    block-size: 100vh;
+    position: fixed;
+    inset-block-start: 0;
+    padding-inline-start: 2%;
+    padding-block-start: 80px;
+    margin-inline-end: 10px; 
+}
+
+.links-atalhos img{
+    inline-size: 20px;
+    margin-inline-end: 20px;
+}
+
+.side-link{
+    display: flex;
+    align-items: center;
+    margin-block-end: 20px;
+    inline-size: fit-content;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.sidebar hr{
+    border: 0;
+    block-size: 1px;
+    background: #ccc;
+    inline-size: 85%;
+}
+
+.lista-inscricoes h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.lista-inscricoes img{
+    inline-size: 25px;
+    border-radius: 50%;
+    margin-inline-end: 20px;
+}
+
+.sidebar-encolhida{
+    inline-size: 5%;
+}
+
+.sidebar-encolhida p{
+    display: none;
+}
+
+.sidebar-encolhida h3{
+    display: none;
+}
+
+.sidebar-encolhida hr{
+    inline-size: 50%;
+    margin-block-end: 25px;
+}
+
+.side-link.ativado img{
+    padding-block-end: 2px;
+    border-block-end: 3px solid red;
+}
+
+@media (max-width:900px){
+    .sidebar{
+        display: none;
+    }
+}

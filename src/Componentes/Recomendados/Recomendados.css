@@ -1,0 +1,31 @@
+.recomendados{
+    background-color: #151515;
+    flex-basis: 30%;
+}
+
+.lista-lateral-videos{
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: 8px;
+}
+
+.lista-lateral-videos img{
+    flex-basis: 49%;
+    inline-size: 50%;
+}
+
+.video-info{
+    color: white;
+    flex-basis: 49%;
+}
+
+.video-info h4{
+    font-size: 13px;
+    margin-block-end: 5px;
+}
+
+@media (max-width:900px){
+    .recomendados{
+        flex-basis: 100%;
+    }
+}

@@ -1,0 +1,81 @@
+nav{
+    display: flex;
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 10;
+}
+  
+  .nav-esquerdo .icone-menu {
+    inline-size: 22px;
+    margin-inline-end: 25px;
+}
+  
+  .nav-esquerdo .logo {
+    inline-size: 130px;
+ }
+  
+  .nav-meio .search-box {
+    border: 1px solid #ccc;
+    margin-inline-start: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+  }
+  
+  .nav-meio .search-box input {
+    inline-size: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+  }
+  
+  .nav-meio .search-box img {
+    inline-size: 15px;
+  }
+  
+  .nav-direito img {
+    inline-size: 25px;
+    margin-inline-end: 25px;
+  }
+  
+  .nav-direito .icone-usuario {
+    inline-size: 35px;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 900px) {
+    .icone-menu {
+      display: none;
+    }
+  
+    .nav-direito img {
+      display: none;
+    }
+  
+    .nav-direito .icone-usuario {
+      display: block;
+      inline-size: 30px;
+    }
+  
+    .logo {
+      inline-size: 90px;
+    }
+  
+    .nav-meio .search-box input {
+      inline-size: 100px;
+    }
+  }
+  
+  .nav-noturno {
+    display: flex;
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #151515;
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 10;
+  }  
